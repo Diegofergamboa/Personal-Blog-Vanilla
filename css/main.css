@@ -49,3 +49,15 @@ nav {
     grid-template-columns: 1fr 1fr;
     height: 90px;
 }
+
+.nav-logo-container {
+    margin-left: 50px;
+
+}
+
+nav .profile-link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
