@@ -69,3 +69,20 @@ nav .profile-link a {
     color: black;
     border-bottom: 1px black solid;
 }
+
+/* Main home */
+
+main .main-cover  {
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size:contain;
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 1;
+}
+
+main h1 {
+    color: white;
+    z-index: 3;
+}
