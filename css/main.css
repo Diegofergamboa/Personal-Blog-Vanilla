@@ -78,11 +78,31 @@ main .main-cover  {
     background-size:contain;
     width: 100%;
     height: auto;
-    position: relative;
+    position: absolute;
     z-index: 1;
 }
 
-main h1 {
+main p {
     color: white;
-    z-index: 3;
+    z-index: 2;
+    position: relative;
+    text-align: center;
+    font-size: 4em;
+    font-weight: 200;
+    top: 120px;
 }
+main button {
+    z-index: 2;
+    display: flex;
+    align-content: center;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 250px;
+    top: 50px;
+    background-color: #47cfac;
+    height: 45px;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+}   
