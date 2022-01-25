@@ -54,10 +54,18 @@ nav {
     margin-left: 50px;
 
 }
-
+nav .nav-logo-container img {
+    width: 220px;
+    margin-top: 10px;
+}
 nav .profile-link {
     display: flex;
     align-items: center;
     justify-content: flex-end;
     margin-right: 50px;
+}
+
+nav .profile-link a {
+    color: black;
+    border-bottom: 1px black solid;
 }
