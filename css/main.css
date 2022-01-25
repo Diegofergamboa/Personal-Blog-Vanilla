@@ -72,37 +72,24 @@ nav .profile-link a {
 
 /* Main home */
 
-main .main-cover  {
-    background-position: cover;
-    background-repeat: no-repeat;
-    background-size:contain;
-    width: 100%;
-    height: auto;
-    position: absolute;
-    z-index: 1;
+main .home-main  {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    height: 100%;
+
 }
 
-main p {
-    color: white;
-    z-index: 2;
-    position: relative;
-    text-align: center;
-    font-size: 4em;
-    font-weight: 200;
-    top: 120px;
+.home-main section {
+    display: grid;
+    grid-column: 2;
+    justify-items: center;
+    height: 350px;
+    margin-top: 80px;
 }
-main button {
-    z-index: 2;
-    display: flex;
-    align-content: center;
-    position: relative;
-    margin: 0 auto;
-    margin-top: 250px;
-    top: 50px;
-    background-color: #47cfac;
-    height: 45px;
-    font-size: 1em;
-    font-weight: bold;
-    text-align: center;
-    align-items: center;
-}   
+
+.home-main-text {
+    font-size: 30px;
+    font-weight: 700px;
+    letter-spacing: 10px;
+    color: black;
+}
