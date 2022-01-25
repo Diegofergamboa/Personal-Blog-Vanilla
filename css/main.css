@@ -39,3 +39,13 @@ header .header-icons-container .icons {
     justify-self: end;
     margin-right: 50px;
 }
+
+header .icons span {
+    color: white;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90px;
+}
