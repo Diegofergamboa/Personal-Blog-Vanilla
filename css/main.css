@@ -72,11 +72,14 @@ nav .profile-link a {
 
 /* Main home */
 
-main .home-main  {
+.home-main  {
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
     height: 100%;
-
+    background-image: url('../assets/img/Cover.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .home-main section {
