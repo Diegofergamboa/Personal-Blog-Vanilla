@@ -4,12 +4,15 @@ body {
     margin: 0;
     padding: 0;
     /* Section para que no haga scroll */
+    
+    font-family: 'Roboto' , 'monospace';
+}
+.home-body {
     position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    font-family: 'Roboto' , 'monospace';
 }
 
 a {
@@ -131,11 +134,11 @@ nav .profile-link a {
     grid-column: 1;
 }
 .blogs-news-img-container img {
-
+    width: 85%;
 }
 .blogs-news-info-container {
     grid-column: 2;
 }
 .blogs-news-info-container p {
-    
+    margin-bottom: 35px;
 }
