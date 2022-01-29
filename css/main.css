@@ -14,7 +14,10 @@ body {
     left: 0;
     right: 0;
 }
-
+.grid-container {
+    max-width: 980px;
+    margin: auto;
+}
 a {
     text-decoration: none;
     display: inline;
@@ -168,4 +171,16 @@ nav .profile-link a {
 }
 .blogs-posts-container .post-container img {
     width: 100%;
+}
+
+footer {
+    width: 100%;
+    height: 80px;
+    background-color: #22272d;
+    border-top: 35px solid #47cfac;
+    text-align: center;
+}
+footer a {
+    color: white;
+    margin-top: 30px;
 }
