@@ -226,3 +226,15 @@ footer a {
 .contact-main-container img {
     width: 100px;
 }
+.profile-main-container {
+    padding-bottom: 70px 40px;
+    background-color: #e6e9ed;
+    margin-bottom: 50px;
+}
+.profile-main-container img {
+    width: 320px;
+    margin-right: 30px;
+}
+.profile-main-container .profile-container {
+    display: flex;
+}
